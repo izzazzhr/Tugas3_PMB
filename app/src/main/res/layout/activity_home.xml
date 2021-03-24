@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:text="Welcome!"
+        android:fontFamily="@font/abril_fatface"
+        android:textColor="@color/btnColor"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/oswald_bold"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="@color/btnColor"
+        android:text="logout"
+        android:textAlignment="center" />
+
+</LinearLayout>
